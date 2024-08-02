@@ -1,0 +1,41 @@
+{
+  "name": "extension-ci",
+  "version": "0.1",
+  "description": "Simple Node.js tool to package a browser extension for the different Chromium browsers.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "start": "node --enable-source-maps dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "extension",
+    "browser",
+    "Chromium",
+    "ci",
+    "package"
+  ],
+  "author": {
+    "name": "Jefry Pozo",
+    "email": "info@jefrypozo.com",
+    "url": "https://github.com/jpozo20"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.8.0",
+    "@types/node": "^22.0.2",
+    "eslint": "^9.8.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "consola": "^3.2.3"
+  }
+}
